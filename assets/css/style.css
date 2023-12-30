@@ -39,12 +39,6 @@ body .container #hero .column-1 {
   flex-direction: column;
   width: 100%;
 }
-body .container #hero .column-1 .title .cup-icon {
-  position: absolute;
-  top: 280px;
-  left: 140px;
-  width: 60px;
-}
 body .container #hero .column-1 .title h2 {
   font-size: 32px;
   font-weight: 700;
@@ -142,6 +136,7 @@ body .container #apps {
   padding: 24px;
   margin-bottom: 34px;
   transition: 0.4s;
+  border-radius: 30px;
 }
 body .container #apps .row-apps {
   display: flex;
@@ -183,6 +178,68 @@ body .container #apps .row-apps .column-2 {
 }
 body .container #apps .row-apps .column-2 img {
   width: 110%;
+}
+body .container .footer-2-1 .list-space {
+  margin-bottom: 1.25rem;
+}
+body .container .footer-2-1 .list-space img {
+  width: 200px;
+}
+body .container .footer-2-1 .footer-text-title {
+  font: 600 1.5rem Poppins, sans-serif;
+  margin-bottom: 1.5rem;
+}
+body .container .footer-2-1 .list-menu {
+  color: #c7c7c7;
+  text-decoration: none !important;
+}
+body .container .footer-2-1 .list-menu:hover {
+  color: #597E52;
+}
+body .container .footer-2-1 hr.hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+body .container .footer-2-1 .border-color {
+  color: #c7c7c7;
+}
+body .container .footer-2-1 .footer-link {
+  color: #c7c7c7;
+}
+body .container .footer-2-1 .footer-link:hover {
+  color: #597E52;
+}
+body .container .footer-2-1 .footer-info-space {
+  padding-top: 3rem;
+}
+body .container .footer-2-1 .list-footer {
+  padding: 5rem 1rem 3rem 1rem;
+}
+body .container .footer-2-1 .info-footer {
+  padding: 0 1rem 3rem;
+}
+body .container .footer-2-1 .social-media-c:hover circle,
+body .container .footer-2-1 .social-media-p:hover path {
+  fill: #555252;
+}
+@media (min-width: 576px) {
+  body .container .footer-2-1 .list-footer {
+    padding: 5rem 2rem 3rem 2rem;
+  }
+  body .container .footer-2-1 .info-footer {
+    padding: 0 2rem 3rem;
+  }
+}
+@media (min-width: 768px) {
+  body .container .footer-2-1 .info-footer {
+    padding: 0 4rem 3rem;
+  }
+}
+@media (min-width: 992px) {
+  body .container .footer-2-1 .info-footer {
+    padding: 0 6rem 3rem;
+  }
 }
 
 footer {

@@ -8,3 +8,4 @@ function scrollFunction() {
         navbar.classList.remove("navbar-fixed");
     }
 }
+
