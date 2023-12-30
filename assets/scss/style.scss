@@ -1,0 +1,124 @@
+@import "variables";
+
+body {
+    font-family: $font-family;
+
+    #myNavbar {
+        background-color: $white;
+        border-bottom: 1px solid $muted;
+        position: relative;
+        transition: top 0.3s;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
+        .container {
+            .navbar-brand {
+                img {
+                    width: 200px;
+                }
+            }
+        }
+
+        &.navbar-fixed {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #ffffff; /* Add your preferred background color */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a box shadow if desired */
+        }
+    }
+    
+    .container {
+        #hero {
+            display: flex;
+            gap: 54px;
+            align-items: center;
+            padding: 34px;
+            width: 100%;
+
+            .column-1 {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                
+                .title {
+                    .cup-icon {
+                        position: absolute;
+                        top: 280px;
+                        left: 140px;
+                        width: 60px;
+                    }
+
+                    h2 {
+                        font-size: 32px;
+                        font-weight: $font-weight-700;
+                    }
+                }
+
+                .description {
+                    p {
+                        font-size: $font-17;
+                        padding-top: 24px;
+                    }
+                }
+            }
+
+            .column-2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        #about {
+            display: flex;
+            gap: 54px;
+            align-items: center;
+            padding: 34px;
+            width: 100%;
+
+            .column-1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .column-2 {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+                h2 {
+                    font-size: 32px;
+                    font-weight: $font-weight-700;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    font-size: $font-17;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: $muted;
+    padding: 24px;
+}
