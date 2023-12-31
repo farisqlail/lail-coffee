@@ -14,3 +14,5 @@ if you change the css change the scss file in the scss/file.scss folder and use 
 ```
 sass --watch assets/scss/style.scss assets/css/style.css 
 ```
+
+I hope this helps and I hope to get feedback from you. cheers 👋🍻
